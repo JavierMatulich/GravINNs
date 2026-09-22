@@ -1,0 +1,25 @@
+Licence for the trained models and data products
+================================================
+
+Copyright (c) 2026, Javier Matulich
+
+The trained networks and their analysis products shipped in this repository --
+everything under `models/` and any reference-orbit database distributed under
+`data/` -- are licensed under the
+
+    Creative Commons Attribution 4.0 International Licence (CC BY 4.0)
+    https://creativecommons.org/licenses/by/4.0/
+    Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+You may share and adapt them for any purpose, including commercially, provided
+you give appropriate credit, link to the licence, and indicate whether changes
+were made.
+
+The source code in `src/`, `scripts/`, `tests/` and `notebooks/` is licensed
+separately under the BSD 3-Clause Licence; see `LICENSE`.
+
+How to give credit
+------------------
+Cite the accompanying paper and this software release; `CITATION.cff` in the
+repository root holds the machine-readable citation metadata, and GitHub's
+"Cite this repository" button generates BibTeX from it.
