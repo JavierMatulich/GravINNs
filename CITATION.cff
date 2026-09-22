@@ -1,17 +1,42 @@
 cff-version: 1.2.0
 message: "If you use GravINNs in published work, please cite the accompanying paper and this software release."
-title: "Gravity-Informed Neural Networks for Post-Newtonian Binary Dynamics"
+title: "GravINNs: Physics-informed neural networks for post-Newtonian compact-binary dynamics"
 type: software
 authors:
   - family-names: "Matulich"
     given-names: "Javier"
+    orcid: "https://orcid.org/0000-0002-3558-9025"
+    affiliation: "Instituto de Física Teórica UAM/CSIC, C/ Nicolás Cabrera, 13–15, C.U. Cantoblanco, E-28049 Madrid, Spain"
+  - family-names: "Barbagallo"
+    given-names: "Gabriele"
+    orcid: "https://orcid.org/0009-0004-8922-5587"
+    affiliation: "Instituto de Física Teórica UAM/CSIC, C/ Nicolás Cabrera, 13–15, C.U. Cantoblanco, E-28049 Madrid, Spain"
 version: 1.0.1
 date-released: 2026-09-22
 repository-code: "https://github.com/JavierMatulich/GravINNs"
-license: MIT
+license: BSD-3-Clause
+license-url: "https://github.com/JavierMatulich/GravINNs/blob/main/LICENSE"
 keywords:
   - physics-informed neural networks
   - gravitational dynamics
   - post-Newtonian dynamics
   - compact binaries
   - surrogate modelling
+preferred-citation:
+  type: article
+  title: "REPLACE WITH THE PAPER'S TITLE"
+  authors:
+    - family-names: "Matulich"
+      given-names: "Javier"
+      orcid: "https://orcid.org/0000-0002-3558-9025"
+      affiliation: "Instituto de Física Teórica UAM/CSIC, C/ Nicolás Cabrera, 13–15, C.U. Cantoblanco, E-28049 Madrid, Spain"
+    - family-names: "Barbagallo"
+      given-names: "Gabriele"
+      orcid: "https://orcid.org/0009-0004-8922-5587"
+      affiliation: "Instituto de Física Teórica UAM/CSIC, C/ Nicolás Cabrera, 13–15, C.U. Cantoblanco, E-28049 Madrid, Spain"
+  year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:XXXX.XXXXX"
+      description: "arXiv preprint identifier"
+  url: "https://arxiv.org/abs/XXXX.XXXXX"
