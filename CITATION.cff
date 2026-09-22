@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use GravINNs in published work, please cite the accompanying paper and this software release."
+title: "Gravity-Informed Neural Networks for Post-Newtonian Binary Dynamics"
+type: software
+authors:
+  - family-names: "Matulich"
+    given-names: "Javier"
+version: 1.0.1
+date-released: 2026-09-22
+repository-code: "https://github.com/JavierMatulich/GravINNs"
+license: MIT
+keywords:
+  - physics-informed neural networks
+  - gravitational dynamics
+  - post-Newtonian dynamics
+  - compact binaries
+  - surrogate modelling

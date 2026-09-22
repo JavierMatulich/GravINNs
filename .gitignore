@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs -- keep them out of git (large, regenerable)
+sweep_*/
+regime_checkpoints*/
+single_orbit_sweep/
+results/
+*.pth
+*.pt
+*.npz
+
+# ... except what the repository ships on purpose
+!models/**/*.pt
+!models/**/*.pth
+!models/**/*.npz
+!data/refs_20000_10orb.npz
+runs/
+l2_*.npy
+nearcircular_*.csv
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# The dissipative runs ship complete: history.json holds the per-epoch loss /
+# L2 curves (the only record for those runs, which predate plot_record.npz)
+# and angle_latest.pth makes them resumable. They are large (~150 MB total),
+# so track them with Git LFS if that matters for your clone size:
+#     git lfs install
+#     git lfs track "models/dissipative/**/history.json"

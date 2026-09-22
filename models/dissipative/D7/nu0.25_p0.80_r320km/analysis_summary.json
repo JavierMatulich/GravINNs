@@ -1,0 +1,22 @@
+{
+  "regime": {
+    "nu": 0.25,
+    "p0_factor": 0.8,
+    "r0_km": 320.0,
+    "q0": 1.6,
+    "ecc": 0.35999999999999976,
+    "T_orb": 8.017730972034832,
+    "L0": 1.0119288512538815,
+    "phi_max": 67.48742578070254,
+    "dissipative": true
+  },
+  "training": {
+    "n_epochs": 250000,
+    "best_l2_shape": 0.000462267762545055,
+    "best_l2_time": Infinity,
+    "l2_target": 0.001,
+    "target_reached": true,
+    "both_targets": false,
+    "transfer_from_2pn": true
+  }
+}

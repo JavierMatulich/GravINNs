@@ -1,0 +1,7 @@
+{
+  "epoch": 250000,
+  "best_l2_shape": 0.0010435339610557245,
+  "best_l2_time": Infinity,
+  "target_reached": false,
+  "dissipative": true
+}

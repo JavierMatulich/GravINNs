@@ -1,0 +1,32 @@
+{
+ "phi_max": 57.880088806152344,
+ "param_ranges": {
+  "p0_factor": [
+   0.6,
+   1.2
+  ],
+  "r0_km": [
+   100.0,
+   400.0
+  ],
+  "pr0_factor": [
+   -0.35,
+   0.35
+  ],
+  "nu": [
+   0.001,
+   0.25
+  ]
+ },
+ "u_lo": 0.11125236749649048,
+ "u_hi": 14.920144271850585,
+ "pr_max": 3.057282269001007,
+ "n_fourier": 10,
+ "fourier_sigma": 3.0,
+ "n_fourier_hi": 16,
+ "fourier_sigma_hi": 8.0,
+ "n_harmonic": 8,
+ "hidden": 384,
+ "depth": 6,
+ "omega_hidden": 64
+}

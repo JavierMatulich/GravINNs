@@ -1,0 +1,9 @@
+# Reproducibility lock validated against the release test suite.
+# The training code also supports the broader version ranges in pyproject.toml.
+numpy==2.3.5
+scipy==1.17.0
+torch==2.10.0
+matplotlib==3.10.8
+pandas==2.2.3
+tqdm==4.67.3
+pytest==9.0.2

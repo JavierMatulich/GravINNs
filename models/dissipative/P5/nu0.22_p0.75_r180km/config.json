@@ -1,0 +1,26 @@
+{
+  "regime": {
+    "nu": 0.22,
+    "p0_factor": 0.75,
+    "r0_km": 180.0,
+    "pr0": 0.0,
+    "q0": 0.9,
+    "ecc": 0.4374999999999997,
+    "T_orb": 3.1126612024097744,
+    "L0": 0.7115124735378854,
+    "dissipative": true
+  },
+  "training": {
+    "n_epochs": 250000,
+    "lr": 0.001,
+    "n_fourier": 12,
+    "hidden": 128,
+    "depth": 5,
+    "w_L": 1.0,
+    "causal_eps": 1.0,
+    "causal_fraction": 0.5,
+    "use_causal_training": false,
+    "transfer_from_2pn": true,
+    "pretrain_epochs": 10000
+  }
+}

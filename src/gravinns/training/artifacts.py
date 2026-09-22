@@ -1,0 +1,10 @@
+"""Canonical file names emitted by the single-orbit training workflows."""
+
+BEST = "angle_best.pth"
+BEST_BOTH = "angle_best_both.pth"
+LATEST = "angle_latest.pth"
+STATE = "state.json"
+HISTORY = "history.json"
+CONFIG = "config.json"
+ANALYSIS_NPZ = "analysis.npz"
+ANALYSIS_JSON = "analysis_summary.json"

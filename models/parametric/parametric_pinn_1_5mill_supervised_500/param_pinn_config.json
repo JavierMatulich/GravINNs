@@ -1,0 +1,25 @@
+{
+  "phi_max_global": 57.880088806152344,
+  "param_ranges": {
+    "p0_factor": [
+      0.6,
+      1.2
+    ],
+    "r0_km": [
+      100.0,
+      400.0
+    ],
+    "pr0_factor": [
+      -0.35,
+      0.35
+    ],
+    "nu": [
+      0.001,
+      0.25
+    ]
+  },
+  "n_orbits": 10,
+  "n_pts": 4000,
+  "pde_pn_order": 2,
+  "data_pn_order": 2
+}
