@@ -37,6 +37,6 @@ preferred-citation:
   year: 2026
   identifiers:
     - type: other
-      value: "arXiv:XXXX.XXXXX"
+      value: "arXiv:2609.25222"
       description: "arXiv preprint identifier"
-  url: "https://arxiv.org/abs/XXXX.XXXXX"
+  url: "https://arxiv.org/abs/2609.25222"
