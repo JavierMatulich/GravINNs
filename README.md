@@ -1,6 +1,6 @@
-# GravINN: Gravity-Informed Neural Networks for Post-Newtonian Dynamics
+# GravINNs: Gravity-Informed Neural Networks for Post-Newtonian Dynamics
 
-GravINN introduces a gravity-informed neural network framework designed to model post-Newtonian (PN) binary orbital dynamics. Authored by G. Barbagallo and J. Matulich, the study develops physics-informed neural networks (PINNs) as efficient surrogates for both conservative and dissipative relativistic two-body problems. The primary objective is to replace repeated numerical integrations with a single trained network capable of generating continuous orbital families conditioned on physical parameters.
+GravINNs introduces a gravity-informed neural network framework designed to model post-Newtonian (PN) binary orbital dynamics. Authored by G. Barbagallo and J. Matulich, the study develops physics-informed neural networks (PINNs) as efficient surrogates for both conservative and dissipative relativistic two-body problems. The primary objective is to replace repeated numerical integrations with a single trained network capable of generating continuous orbital families conditioned on physical parameters.
 
 ## Key Methodological Innovations
 * **Angle-Domain Formulation:** The equations of motion are parameterized by the orbital angle φ rather than time, allowing for a compact, bounded domain well-suited for neural network representation.
