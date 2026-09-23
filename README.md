@@ -121,4 +121,4 @@ Citation metadata are provided in [`CITATION.cff`](CITATION.cff). If you use Gra
 
 ## License
 
-GravINNs is released under the MIT License. See [`LICENSE`](LICENSE).
+GravINNs is released under License see [`LICENSE`](LICENSE).
